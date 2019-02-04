@@ -1,11 +1,13 @@
-<a href="{{project.link}}" target="blanck">
+<div>
+    <h2>{{ project.name }}</h2>
+    <p>{{ project.description }}</p>
     <div>
-        <h2>{{ project.name }}</h2>
-        <p>{{ project.description }}</p>
-        <div>
-            <ul>
-                <li *ngFor="let tecnology of project.tecnologies">{{ tecnology }}</li>
-            </ul>
-        </div>
+        <ul>
+            <li *ngFor="let tecnology of project.tecnologies">{{ tecnology }}</li>
+        </ul>
     </div>
-</a>
+    <div class='bottom-links'>
+        <div><a href="{{project.link}}" target="blanck">Web <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+        <div><a href="{{project.sourceLink}}" target="blanck">Sources <i class="fa fa-github" aria-hidden="true"></i></a></div>
+    </div>
+</div>

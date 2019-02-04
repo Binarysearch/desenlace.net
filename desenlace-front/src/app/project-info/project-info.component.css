@@ -1,4 +1,4 @@
-:host > a > div{
+:host > div{
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 2px;
     padding: 1em;
@@ -6,13 +6,12 @@
     height: 300px;
 }
 a{
-    color:inherit;
+    color:rgba(0, 0, 128, 1);
     text-decoration: none;
 }
 :host{
     position: relative;
     float: left;
-    cursor:pointer;
     margin:1em;
 }
 :host:hover{
@@ -30,4 +29,9 @@ ul li{
 }
 ul{
     padding: 0;
+}
+.bottom-links{
+    bottom: 1em;
+    position: absolute;
+    width: 100%;
 }

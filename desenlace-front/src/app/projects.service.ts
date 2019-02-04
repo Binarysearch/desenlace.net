@@ -9,7 +9,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 })
 export class ProjectsService {
 
-  private projectsUrl = 'api/projects';
+  private projectsUrl = 'https://desenlace.net/api/projects';
 
   constructor(private http: HttpClient) { }
 
