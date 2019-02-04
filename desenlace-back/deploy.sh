@@ -1,0 +1,1 @@
+mvn package && cp ./target/desenlace.war /var/lib/tomcat8/webapps/desenlace.war
