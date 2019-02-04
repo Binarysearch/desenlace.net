@@ -5,4 +5,4 @@ Para generar la aplicacion debes tener instalado `maven`, `npm` y `angular CLI`
 
 Ejecutar `build.sh` para general el package `desenlace.war`
 
-Copiar el desenlace.war en el servidor de aplicaciones
+Copiar el archivo `desenlace.war` en el servidor de aplicaciones

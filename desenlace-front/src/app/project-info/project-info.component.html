@@ -1,0 +1,11 @@
+<a href="{{project.link}}" target="blanck">
+    <div>
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.description }}</p>
+        <div>
+            <ul>
+                <li *ngFor="let tecnology of project.tecnologies">{{ tecnology }}</li>
+            </ul>
+        </div>
+    </div>
+</a>

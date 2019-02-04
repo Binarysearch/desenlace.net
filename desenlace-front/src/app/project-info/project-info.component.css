@@ -1,0 +1,33 @@
+:host > a > div{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    padding: 1em;
+    width: 200px;
+    height: 300px;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+:host{
+    position: relative;
+    float: left;
+    cursor:pointer;
+    margin:1em;
+}
+:host:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+}
+ul li{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin:0.2em;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 2px;
+}
+ul{
+    padding: 0;
+}
